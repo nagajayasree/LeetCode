@@ -3,7 +3,7 @@ value every subsequent time it is called (n, n + 1, n + 2, etc). */
 
 function createCounter(n: number): () => number {
     return function() {
-        return n++
+        return n++;
     }
 }
 
